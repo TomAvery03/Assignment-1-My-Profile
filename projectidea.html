@@ -1,0 +1,62 @@
+<<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Project Idea - Thomas Avery</title>
+    <link href ="css/style.css" rel ="stylesheet">
+  </head>
+  <body>
+
+    <header id="header">
+      <h1><a href="index.html" id="logo">My Profile</a></h1>
+    </header>
+
+    <header id="header">
+      <h1><a href="projectidea.html" id="logo">Project Idea</a></h1>
+    </header>
+
+    <h2>Overview</h2>
+    <p>Food waste continues to be a prevalent issue within developed countries – including Australia. A smartphone application that allows users to log their groceries as well as their respective expiration dates would benefit Australians and Australia in a number of ways. This app could have the potential to save Australians hundreds of dollars each year - at the very least. It would also shrink Australia’s carbon footprint by saving the unnecessary greenhouse gas emissions that are produced when wasted food items make their way to supermarket shelves. An app with a concept as simple as this could even provide additional features that could further limit Australia’s total food wastage.
+    </p>
+
+    <h2>Motivation</h2>
+    <p>Each year, around 7.6 million tons of food ends up in Australian landfill (Australian Government Department of Agriculture, Water and the Environment, n.d.). This wastage ends up costing Australians about $2000-$2,500 per household annually (Australian Government Department of Agriculture, Water and the Environment, n.d.). A lot of this waste have come from items that have passed their expiry date (Glover n.d.). With an economic crisis looming over Australia, every dollar counts. A smartphone application that allows users to input and track their groceries expiry dates could see Australian households save hundreds if not thousands of dollars each year (Australian Government Department of Agriculture, Water and the Environment, n.d.). Considering that food waste accounts for 3% of Australia’s greenhouse gas emissions (Australian Government Department of Agriculture, Water and the Environment, n.d.) and with climate change becoming an ever more increasing issue, limiting food waste should be considered a priority for the average Australian household.
+    </p>
+
+    <h2>Description</h2>
+    <p>The features of this app will be basic because that’s all they need to be. The app is achieving a fairly simple task. You don’t want to overwhelm users by adding too many unnecessary and useless features. Upon entering the app, users will easily be able to add their items. The logging process will involve three main steps:
+      <ul>
+        <li>Entering the ‘Log’ tab.</li>
+        <li>Selecting ‘Add Items’.</li>
+        <li>Searching for the item in the search bar.</li>
+      </ul>
+If the item doesn’t yet exist in the database, users can enter data such as the item name, used by/best before date, and a picture of the item. Once a new item has been logged, it will be saved in the applications database for any user to use in the future after a verification of the item has been complete. This process may seem a bit tedious for a user to do for every single thing they buy so there are even easier methods. In 2019, <i>Woolworths</i> rolled out the trial of their <i>Scan&Go</i> feature (Woolworths Group, 2019). This has made shopping faster and easier for customers. To allow for a more seamless logging experience, data from <i>Scan&Go</i> could be synced across to the app if there were to be a partnership with <i>Woolworths</i>. Since barcodes are universal and not exclusive to supermarket chains, users can have the option to scan their items barcodes rather than having to shop at <i>Woolworths</i> or manually input the data. The software within the app will need to make use of optical character recognition (OCR). It is important to implement these features otherwise users will be discouraged to use this app if the process of inputting data is too inefficient and tedious. Just like how users can input items via scanning a barcode from their smartphone camera, the camera can also be used to recognise the expiration date on each item. Once some items have been logged, users will have the option to set up multiple custom notifications for either all items or specific items. This feature is essential in achieving the goal of the app – limiting food waste. Users need to be reminded of when their items are about to expire. Items that don’t have a fixed expiration date (e.g. fruit, vegetables, etc.) can give an estimation from the date of purchase. Users will easily be able to view their current logged items in alphabetic order or in order of expiration date. These are the absolute essential features. There are some other unnecessary features that could be added later down the line. It may be worthwhile to provide information on how to better preserve specific food items (e.g. freeze, vacuum seal, etc.). To evolve the app in the future, it could be used as a tool similar to an app like <i>Yummly</i>. <i>Yummly</i> searches for recipes based on the ingredients the user has on hand (Yummly, 2019). If my app were to do the same, it could limit food waste even more as users who don’t know what to do with their near-expiring ingredients now have an answer that’s within the app.
+    </p>
+
+    <h2>Tools and Technologies</h2>
+    <p>The software within the app will need to be able to recognise physical writing. This is so it can allow users to input the data via their smartphone's cameras. To allow users to easily input their data, the software will need to make use of OCR. Of course, not all expiration data is readable or existent for this technology to take advantage of. In some cases, users may have to manually enter the dates themselves. <i>SQLiteStudio</i> or <i>MySQL</i> could be used as the open-source relational database management system. <i>SQLiteStudio</i> would preferably be the RDBMS of choice since I have some familiarity with the program. A database will be used to store the information of the users and items. For each user, it will store data such as their current logged items along with their respective expiration dates. The database will also need to be utilised to store the data for the unique items; information like the item name and the items description.
+    </p>
+
+    <h2>Skills Required</h2>
+    <p>There are several skills that will be needed to create this app. For one, there will need to be a deep understanding of the open-source RDBMS <i>SQLiteStudio</i>. I have a basic understanding of the software already but it should be feasible to learn any other required skills. Some sort of programming language will need to be used to create the functions that are within the app. A lot of iOS apps tend to use Swift (IBM Developer, 2019). I have no experience in using this language so it may take a little while to pick up. <i>Swift</i> has been used to program apps such as <i>LinkedIn</i>, <i>Lyft</i>, and <i>Kickstarter</i>. There will also need to be some skill in creating a simple but effective user experience. Users want to be able to input their data easily and quickly.
+    </p>
+
+    <h2>Outcome</h2>
+    <p>If this app is to become successful within Australia, it would likely have little impact in limiting Australia’s carbon footprint because food waste accounts for just 3% of Australia’s greenhouse gas emissions. Unfortunately, there will always be food waste - even if every Australian household were to use this app. This app could not single-handedly eliminate food wastage within Australia, that would require other things like education or regulations on supermarket chains. The bigger impact this app will have will be in saving hundreds or even thousands of dollars for Australian households. In the most perfect of scenarios, an app of this sort could change the Australian food wastage culture for future generations.
+    </p>
+
+    <h2>References</h2>
+    <p>
+      <ul>
+        <li>Department of Agriculture, Water and the Environment n.d., <i>Tackling Australia’s food waste, Australian Government</i>, viewed 19 March 2022, <https://www.awe.gov.au/environment/protection/waste/food-waste#:~:text=Each%20year%20we%20waste%20around,%242%2C500%20per%20household%20per%20year>.</li>
+        <li>Glover, A n.d., Facts, <i>Statistics & Solutions about food waste in Australia, Better Homes and Gardens</i>, viewed 19 March 2022, <https://www.bhg.com.au/food-wastage-in-australia#:~:text=One%20of%20the%20most%20common%20reasons%20is%20that,hospitality%20industries%20also%20contribute%20massively%20to%20food%20waste>.</li>
+        <li>IBM Developer 2019, <i>Choosing the best programming language for mobile app development</i>, viewed 25 March 2022, <https://developer.ibm.com/articles/choosing-the-best-programming-language-for-mobile-app-development/>.</li>
+        <li>JobOutlook n.d., <i>Software and Applications Programmers</i>, JobOutlook, viewed 24 March 2022, <https://joboutlook.gov.au/occupations/software-and-applications-programmers?occupationCode=2613>.</li>
+        <li>railwaymen.org 2020, <i>13 Best Mobile Applications Written in Swift</i>, railwaymen.org, viewed 26 March 2022, <https://blog.railwaymen.org/13-best-mobile-applications-written-in-swift#:~:text=%2013%20popular%20iOS%20applications%20written%20in%20Swift,Mozilla%20Corporation%20is%20strongly%20focused%20on...%20More%20>.</li>
+        <li>Woolworths Group 2019, <i>Woolworths expands Scan&Go to five new locations</i>, Woolworths Group, viewed 14 March 2022, <https://www.woolworthsgroup.com.au/page/media/Latest_News/woolworths-expands-scango-to-five-new-locations/#:~:text=Scan%26Go%20is%20now%20available%20for%20customers%20at%20Woolworths,digital%20team%20in%20close%20collaboration%20with%20supermarket%20operations.>.</li>
+        <li>Yummly 2019, <i>About Yummly</i>, Yummly, viewed 26 March 2022, <https://www.yummly.com/about>.</li>
+
+      </ul>
+    </p>
+  </body>
+</html>
